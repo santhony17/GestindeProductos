@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Campo de texto para ingresar el nombre del producto -->
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del Producto"
+            android:inputType="text" />
+
+        <!-- Campo de texto para ingresar el código del producto -->
+        <EditText
+            android:id="@+id/edtCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Código del Producto"
+            android:inputType="text" />
+
+        <!-- Campo de texto para ingresar el stock del producto -->
+        <EditText
+            android:id="@+id/edtStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Stock"
+            android:inputType="number" />
+
+        <!-- Campo de texto para ingresar el precio adquirido -->
+        <EditText
+            android:id="@+id/edtPrecioAdquirido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio Adquirido"
+            android:inputType="numberDecimal" />
+
+        <!-- Campo de texto para ingresar el precio de venta -->
+        <EditText
+            android:id="@+id/edtPrecioVenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio de Venta"
+            android:inputType="numberDecimal" />
+
+        <!-- Botón para guardar el producto -->
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Producto"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
